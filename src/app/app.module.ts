@@ -11,19 +11,9 @@ import { NAVComponent } from './components/nav/nav.component';
 import { DashboardComponent } from './components/dashboard/dashboard.component';
 
 @NgModule({
-  imports: [
-    BrowserModule,
-    FormsModule,
-    AppRoutingModule,
-    RouterModule,
-    HttpClientModule
-  ],
-  declarations: [
-    AppComponent,
-    AddCarComponent,
-    NAVComponent,
-    DashboardComponent
-  ],
-  bootstrap: [AppComponent]
-})
+  
+    imports: [BrowserModule, FormsModule, AppRoutingModule, RouterModule, HttpClientModule],
+    declarations: [AppComponent,AddCarComponent,NAVComponent,DashboardComponent],
+    bootstrap: [AppComponent]
+  })
 export class AppModule {}
